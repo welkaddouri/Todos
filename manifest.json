@@ -1,0 +1,18 @@
+{
+    "extension": 
+    {
+        "name": "ToDos",
+        "version": "1.0.0",
+        "description": "A tool for manage tasks by solution",
+        "icon": "home.png",
+        "senders": [
+            {
+                "location": "studioToolbar",
+                "icon": "icon.png",
+                "actionName": "toDos",
+                "tips": "Use ToDos Tool",
+                    }
+        ],
+        "lifetime": "application_lifetime"
+    }
+}
