@@ -31,12 +31,21 @@ actions.toDos = function toDos() {
 	//studio.extension.storage.returnValue = '123';
 	//studio.alert(studio.extension.storage.returnValue);
 	
+	if (!studio.currentSolution.getSolutionFile()) {
+
+		studio.alert('You must open a solution before using this extension.');
+		
+	} else {
+	
 	studio.sendCommand("Todos.loadSolutionTodos");
 
 	studio.extension.registerTabPage('index.html', 'to-do-icon.png');
 
 	studio.extension.openPageInTab('index.html','ToDos Tool');
+
 	return true;
+    
+        }
 };
 
 exports.handleMessage = function handleMessage(message) {
