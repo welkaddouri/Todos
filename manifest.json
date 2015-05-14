@@ -4,7 +4,7 @@
         "name": "ToDos",
         "version": "1.0.0",
         "description": "A tool for manage tasks by solution",
-        "icon": "home.png",
+        "icon": "icon.png",
         "senders": [
             {
                 "location": "studioToolbar",
