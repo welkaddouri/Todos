@@ -10,8 +10,14 @@
                 "location": "studioToolbar",
                 "icon": "icon.png",
                 "actionName": "toDos",
-                "tips": "Use ToDos Tool",
+                "tips": "Use ToDos Tool"
                     }
+        ],
+		"actions": [
+					{
+						"name": "toDos",
+						"title": "ToDo List Manager"
+					}
         ],
         "lifetime": "application_lifetime"
     }
